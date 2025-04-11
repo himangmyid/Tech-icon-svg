@@ -1,0 +1,129 @@
+<!-- https://s.id/iconsvg -->
+<svg width="800px" height="800px" viewBox="-52.5 0 361 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" id="css3-icon">
+  <style>
+    /* Liquid fill animations */
+    @keyframes blue-fill {
+      0% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); }
+      50% { clip-path: polygon(0 20%, 100% 30%, 100% 100%, 0 100%); }
+      100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+    }
+    
+    @keyframes lightblue-fill {
+      0% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); }
+      50% { clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0 100%); }
+      100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+    }
+    
+    /* Wave animations */
+    @keyframes wave {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-20px); }
+    }
+    
+    /* Text reveal */
+    @keyframes text-reveal {
+      0% { opacity: 0; transform: translateY(10px) scale(0.9); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    
+    /* Text movement */
+    @keyframes text-bounce {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-5px) scale(1.05); }
+    }
+    
+    /* Bubble animations */
+    @keyframes bubble {
+      0% { transform: translateY(0) scale(0); opacity: 0; }
+      20% { transform: translateY(-10px) scale(1); opacity: 0.7; }
+      100% { transform: translateY(-80px) scale(0.5); opacity: 0; }
+    }
+    
+    /* Element classes */
+    .blue-fill {
+      animation: blue-fill 4s ease-in-out infinite;
+    }
+    
+    .lightblue-fill {
+      animation: lightblue-fill 4s ease-in-out infinite;
+    }
+    
+    .wave {
+      animation: wave 4s linear infinite;
+    }
+    
+    .css-text {
+      animation: text-reveal 2s ease-out forwards, text-bounce 4s ease-in-out infinite 2s;
+    }
+    
+    .bubble {
+      animation: bubble 4s ease-in-out infinite;
+      opacity: 0;
+    }
+  </style>
+  
+  <!-- Shield base with gradient -->
+  <defs>
+    <linearGradient id="shield-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0e0e0" />
+      <stop offset="100%" stop-color="#d0d0d0" />
+    </linearGradient>
+  </defs>
+  <path d="M127.844 360.088L23.662 331.166L0.445 70.766L255.555 70.766L232.314 331.125L127.844 360.088Z" fill="url(#shield-gradient)"/>
+  
+  <!-- Liquid fills -->
+  <g clip-path="url(#shield-clip)">
+    <!-- Dark blue liquid with gradient -->
+    <defs>
+      <linearGradient id="blue-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#264DE4" />
+        <stop offset="100%" stop-color="#1A3EBD" />
+      </linearGradient>
+    </defs>
+    <g class="blue-fill">
+      <path d="M127.844 360.088L23.662 331.166L0.445 70.766L255.555 70.766L232.314 331.125L127.844 360.088Z" fill="url(#blue-gradient)"/>
+      <path class="wave" d="M0 250Q60 230 120 250T240 250" fill="none" stroke="#2965F1" stroke-width="8" opacity="0.6"/>
+    </g>
+    
+    <!-- Light blue liquid with gradient -->
+    <defs>
+      <linearGradient id="lightblue-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#2965F1" />
+        <stop offset="100%" stop-color="#1D53C4" />
+      </linearGradient>
+    </defs>
+    <g class="lightblue-fill">
+      <path d="M212.417 314.547L232.278 92.057L128 92.057V337.95L212.417 314.547Z" fill="url(#lightblue-gradient)"/>
+      <path class="wave" d="M128 220Q160 210 200 220" fill="none" stroke="#3D8CD6" stroke-width="6" opacity="0.7"/>
+    </g>
+    
+    <!-- Bubbles with scaling effect -->
+    <circle class="bubble" cx="60" cy="280" r="5" fill="#EBEBEB" style="animation-delay: 0.5s"/>
+    <circle class="bubble" cx="120" cy="260" r="4" fill="#EBEBEB" style="animation-delay: 1s"/>
+    <circle class="bubble" cx="180" cy="290" r="6" fill="#EBEBEB" style="animation-delay: 1.5s"/>
+  </g>
+  
+  <!-- White areas -->
+  <path d="M53.669 188.636L56.531 220.573L128 220.573V188.636H53.669z" fill="#FFFFFF"/>
+  <path d="M47.917 123.995L50.82 155.932H128V123.995H47.917z" fill="#FFFFFF"/>
+  <path d="M128 271.58l-.14.037-35.57-9.604-2.27-26.075h-32.06l4.47 50.146L127.853 304.85 128 304.81V271.58z" fill="#FFFFFF"/>
+  
+  <!-- CSS text with shadow and movement -->
+  <g class="css-text">
+    <path d="M60.484 0h38.68v16.176H76.659v16.176h22.505v16.176H60.484z" fill="#000"/>
+    <path d="M106.901 0h38.68v14.066h-22.505v2.813h22.505v32.352h-38.68V34.462h22.505v-2.813h-22.505z" fill="#000"/>
+    <path d="M153.319 0h38.68v14.066h-22.505v2.813h22.505v32.352h-38.68V34.462h22.505v-2.813h-22.505z" fill="#000"/>
+    <path d="M60.484 0h38.68v16.176H76.659v16.176h22.505v16.176H60.484z" fill="none" stroke="#000" stroke-width="2" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.5))"/>
+  </g>
+  
+  <!-- White text area with shadow -->
+  <path d="M202.127 188.636l5.765-64.641H127.89v31.937h44.003l-2.906 32.704H127.89v31.937h39.327l-3.707 41.42-35.493 10.226v33.227h65.473l10.48-117.147z" fill="#FFFFFF" filter="drop-shadow(2px 2px 4px rgba(0,0,0,0.3))"/>
+  
+  <!-- Shield outline -->
+  <path d="M127.844 360.088L23.662 331.166L0.445 70.766L255.555 70.766L232.314 331.125L127.844 360.088z" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Clip path for liquid containment -->
+  <clipPath id="shield-clip">
+    <path d="M127.844 360.088L23.662 331.166L0.445 70.766L255.555 70.766L232.314 331.125L127.844 360.088z"/>
+  </clipPath>
+</svg>

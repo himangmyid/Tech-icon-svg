@@ -34,11 +34,13 @@ Thank you for your understanding!
 │   ├── html-icon.svg
 │   ├── mysql-icon.svg
 │   ├── nextjs-icon.svg
+│   ├── css-icon.svg
 │   └── react-icon.svg
 └── readme.md
 ```
 - [HTML 5](/icon/html-icon.svg)
 - [React](/icon/react-icon.svg)
 - [Nextjs](/icon/nextjs-icon.svg)
+- [CSS](/icon/css-icon.svg)
 - [Mysql](/icon/mysql-icon.svg) by [qkrdmstlr3](https://github.com/qkrdmstlr3)
 - [Google Cloud Platform](/icon/gcp-icon.svg) by [AbidAlWassie](https://github.com/AbidAlWassie)

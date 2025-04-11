@@ -29,7 +29,7 @@ Thank you for your understanding!
 📁 Tech-icon-svg
 ├── 📁 Assets
 │   └── thum.jpeg
-├── 📁 Icons
+├── 📁 icon
 │   ├── gcp-icon.svg
 │   ├── html-icon.svg
 │   ├── mysql-icon.svg
@@ -37,8 +37,8 @@ Thank you for your understanding!
 │   └── react-icon.svg
 └── readme.md
 ```
-- [HTML 5](/html-icon.svg)
-- [React](/react-icon.svg)
-- [Nextjs](/nextjs-icon.svg)
-- [Mysql](/mysql-icon.svg) by [qkrdmstlr3](https://github.com/qkrdmstlr3)
-- [Google Cloud Platform](/gcp-icon.svg) by [AbidAlWassie](https://github.com/AbidAlWassie)
+- [HTML 5](/icon/html-icon.svg)
+- [React](/icon/react-icon.svg)
+- [Nextjs](/icon/nextjs-icon.svg)
+- [Mysql](/icon/mysql-icon.svg) by [qkrdmstlr3](https://github.com/qkrdmstlr3)
+- [Google Cloud Platform](/icon/gcp-icon.svg) by [AbidAlWassie](https://github.com/AbidAlWassie)

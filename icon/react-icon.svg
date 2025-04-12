@@ -35,7 +35,7 @@
     .react-path {
       fill: none;
       stroke: #58c4dc;
-      stroke-width: 1.8;
+      stroke-width: 4;
       stroke-linecap: round;
       stroke-dasharray: 1200;
       animation: 
